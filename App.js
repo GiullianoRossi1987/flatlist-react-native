@@ -58,14 +58,18 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   item: {
-	  backgroundColor: "blue",
-	  padding: 10,
+	  padding: 5,
 	  marginBottom: 20,
-	  flexDirection: "row"
+	  flexDirection: "row",
+	  borderWidth: 5,
   },
   textItem: {
-	  backgroundColor: "red",
-	  alignSelf: "flex-start"
+	  // backgroundColor: "blue",
+	  alignSelf: "flex-start",
+	  padding: 6,
+	  marginLeft: 20,
+	  fontSize: 30,
+	  marginTop: "auto"
   },
   img: {
 	  border: 10,
